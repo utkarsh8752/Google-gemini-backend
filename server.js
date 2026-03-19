@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 import "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
-import chatRoutes from "./routes/chat.js";
+import chatRoutes from "./routes/chatRoutes.js";
 
 const app = express();
 app.use(cors());
